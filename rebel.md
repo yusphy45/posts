@@ -127,4 +127,4 @@ title: 反骨
 我想了想，一边往前走，一边头也不回的说：
 “Let the remained remain.”
 
-本篇转载自 (自黑狂魔唐大夫)[http://weibo.com/noporkatall]
+本篇转载自 [自黑狂魔唐大夫](http://weibo.com/noporkatall)
