@@ -1,7 +1,6 @@
+postPath := ../workSpace/source/_posts
 deploy:
-	@if [ -d "../workSpace/source/_posts" ]; then rm -rd ../workSpace/source/_posts; fi
-	@mkdir ../workSpace/source/_posts
-	@cp *.md ../workSpace/source/_posts
-	@rm ../workSpace/source/_posts/README.md
-	@cd ../workSpace
-	@hexo deploy -g --cwd /home/workSpace/
+	@if [ -d "$(postPath)" ]; then rm -rd $(postPath); fi
+	@cp -f *.md $(postPath)
+	@rm $(postPath)/README.md
+	@cd ../workSpace; hexo deploy -g
