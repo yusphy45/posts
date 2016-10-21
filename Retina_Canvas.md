@@ -2,7 +2,7 @@
 title: Retina Canvas?
 ----
 
-##canvas在retina屏幕下线条锯齿化的解决方案
+## canvas在retina屏幕下线条锯齿化的解决方案
 
 1. 问题描述
 
@@ -22,7 +22,7 @@ title: Retina Canvas?
 	- 但是我们接下来又发现一个问题 那就是canvas本身被缩小了 画出的形状也被相应的缩小了，我们应该如何在保证正常输入绘图尺寸的同时保证线条的锐利呢，画布的scale方法就派上了用场
 	- [更好的方式](https://jsfiddle.net/yusphy45/4fdx5rcd/)
 
-###参考链接
+### 参考链接
 > [High DPI Canvas](https://www.html5rocks.com/en/tutorials/canvas/hidpi/)
 
 	
