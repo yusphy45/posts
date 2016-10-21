@@ -1,3 +1,7 @@
+----
+title: Retina Canvas?
+----
+
 ##canvas在retina屏幕下线条锯齿化的解决方案
 
 1. 问题描述
